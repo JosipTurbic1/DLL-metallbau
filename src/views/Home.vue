@@ -3,7 +3,7 @@
 
 <div class="p-5 text-center bg-image rounded-3" style="
     height: 500px;
-     background-image: url('https://drive.google.com/uc?export=view&id=1DxANxxTdV8oMAlfv2RzkuE6lknRUNzuB');
+     background-image: url('https://drive.google.com/uc?export=view&id=1-dNoNHauHSI4zxctQjYHmX61YVee2VWn');
      background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 100%;

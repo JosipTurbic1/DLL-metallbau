@@ -15,18 +15,19 @@
 
 <script>
 import LightBox from "@/components/LightBox.vue";
+
 export default {
   name: "app",
   data() {
     return {
       lightbox: {
         images: {
-          thumbnails: ["1.jpg", "2.jpg", "3.jpg"],
-          large: ["1.jpg", "2.jpg", "Image-63.jpg"]
+          thumbnails: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
+          large: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"]
         },
-        captions: ["caption 1", "caption 2", "caption 3"],
-        thumbnailsPath: "/img/sea/thumbnails/",
-        largePath: "/img/sea/large/"
+        captions: [],
+        thumbnailsPath: "/img/sea/thumbnails/GB/",
+        largePath: "/img/sea/large/GB/"
       }
     };
   },

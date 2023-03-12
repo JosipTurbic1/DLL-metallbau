@@ -13,7 +13,8 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            
+             <form id="contact-form" name="contact-form" action="https://formbold.com/s/oJpNw" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
@@ -30,7 +31,7 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
+                            <input type="text" id="email" name="email"  class="form-control">
                             <label for="email" class="">Your email</label>
                         </div>
                     </div>
@@ -43,7 +44,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
+                            <input type="text" id="subject" name="subject"  class="form-control">
                             <label for="subject" class="">Subject</label>
                         </div>
                     </div>
@@ -68,11 +69,11 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+               <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
             <div class="status"></div>
         </div>
-        <!--Grid column-->
+        <!--Grid column -->
 
         <!--Grid column-->
         <div class="col-md-3 text-center">

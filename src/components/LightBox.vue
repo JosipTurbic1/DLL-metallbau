@@ -23,7 +23,7 @@
         <transition name="fade" mode="out-in">
           <img
             :key="currentImage"
-            :src="largePath + [currentImage + 1] +'.jpg'"
+            :src="largePath + [currentImage + 1] +'.jpeg'"
             class="light-box__container__img"
           >
         </transition>
@@ -114,6 +114,8 @@ export default {
   }
   &__thumbnail {
     cursor: pointer;
+    border: 1px solid #050505;
+  border-radius: 4px;
   }
   &__close {
     padding: 10px;
@@ -137,6 +139,8 @@ export default {
     min-height: 800px;
     img {
       align-self: center;
+      border: 1px solid #ddd;
+  border-radius: 4px;
     }
   }
   &__btn {
