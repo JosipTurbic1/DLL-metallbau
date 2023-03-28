@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Metallfenster & Kunststoffenster</h2>
+    <h2>Metallfenster & Kunststofffenster</h2>
     <LightBox
       :thumbnails="lightbox.images.thumbnails"
       :largeImages="lightbox.images.large"

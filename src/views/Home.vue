@@ -36,7 +36,7 @@
               
             </div>
             <h4 class="fw-semibold mb-0">Metallbau</h4>
-            <p class="text-muted">Verkauf und Montage aller Arten von Metalltüren, Fenstern, Vordächern und allen anderen Metallkonstruktionen</p>
+            <p class="text-muted">Verkauf und Montage von Metalltüren, Fenster, Vordächer und allen anderen Metallkonstruktionen</p>
           </div>
 
           <div class="col d-flex flex-column gap-2">
@@ -46,7 +46,7 @@
 
             </div>
             <h4 class="fw-semibold mb-0">Glasbau</h4>
-            <p class="text-muted">Verkauf und Montage von neuen Gläsern und Austausch von alten Gläsern</p>
+            <p class="text-muted">Verkauf und Montage von neuem Glas und Austausch von bestehendem Glas</p>
           </div>
           <div class="col d-flex flex-column gap-2">
             <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
@@ -55,7 +55,7 @@
 
             </div>
             <h4 class="fw-semibold mb-0">Geländer</h4>
-            <p class="text-muted">Produktion und Montage von Geländer aus Glas, Metall und Chromstahl</p>
+            <p class="text-muted">Produktion und Montage von Glas- Metall- und Chromstahl- Geländer</p>
           </div>
 
 
@@ -66,7 +66,7 @@
 
             </div>
             <h4 class="fw-semibold mb-0">Montage</h4>
-            <p class="text-muted">Montage von Glas, Metall und Kunststoff Elementen</p>
+            <p class="text-muted">Montage von Glas- Metall- und Kunststoff- Elementen</p>
           </div>
 
           <div class="col d-flex flex-column gap-2">
@@ -76,7 +76,7 @@
 
             </div>
             <h4 class="fw-semibold mb-0">Fenster</h4>
-            <p class="text-muted">Montage und Demontage von Fenstern aller Art</p>
+            <p class="text-muted">Montage und Demontage von Fenster aller Art</p>
           </div>
         </div>
       </div>
