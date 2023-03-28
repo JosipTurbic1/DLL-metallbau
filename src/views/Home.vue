@@ -2,11 +2,12 @@
  <div class="jumbotron">
 
 <div class="p-5 text-center bg-image rounded-3" style="
-    height: 500px;
+    height: 450px;
      background-image: url('https://drive.google.com/uc?export=view&id=1-dNoNHauHSI4zxctQjYHmX61YVee2VWn');
      background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 100%;
+     background-attachment: fixed;
   ">
   <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
     <div class="d-flex justify-content-center align-items-center h-100">
@@ -18,13 +19,12 @@
 </div>
 
   <div class="container px-4 py-5">
-    <h2 class="pb-2 border-bottom">Naše usluge</h2>
+    
 
     <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
       <div class="col d-flex flex-column align-items-start gap-2">
-        <h3 class="fw-bold">Upoznajte se s našim uslugama</h3>
-        <p class="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-        <router-link to="/uberuns"><a class="btn btn-primary btn-lg">O nama</a> </router-link>
+        <h3 class="fw-bold">Lernen Sie unsere Dienstleistungen kennen</h3>
+        <router-link to="/uberuns"><a class="btn btn-primary btn-lg">Mehr über uns</a> </router-link>
       </div>
 
       <div class="col">
@@ -32,22 +32,32 @@
           <div class="col d-flex flex-column gap-2">
             <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
               
-              <i class="fa-solid fa-bolt-lightning"></i>
+             <i class="fa-solid fa-map"></i>
               
             </div>
-            <h4 class="fw-semibold mb-0">Metall-</h4>
-            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+            <h4 class="fw-semibold mb-0">Metallbau</h4>
+            <p class="text-muted">Verkauf und Montage aller Arten von Metalltüren, Fenstern, Vordächern und allen anderen Metallkonstruktionen</p>
           </div>
 
           <div class="col d-flex flex-column gap-2">
             <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
              
-              <i class="fa-solid fa-door-open"></i>
+              <i class="fa-sharp fa-regular fa-square"></i>
 
             </div>
-            <h4 class="fw-semibold mb-0">Glass- & Torbau</h4>
-            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+            <h4 class="fw-semibold mb-0">Glasbau</h4>
+            <p class="text-muted">Verkauf und Montage von neuen Gläsern und Austausch von alten Gläsern</p>
           </div>
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+             
+              <i class="fa-solid fa-xmarks-lines"></i>
+
+            </div>
+            <h4 class="fw-semibold mb-0">Geländer</h4>
+            <p class="text-muted">Produktion und Montage von Geländer aus Glas, Metall und Chromstahl</p>
+          </div>
+
 
           <div class="col d-flex flex-column gap-2">
             <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
@@ -56,7 +66,7 @@
 
             </div>
             <h4 class="fw-semibold mb-0">Montage</h4>
-            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+            <p class="text-muted">Montage von Glas, Metall und Kunststoff Elementen</p>
           </div>
 
           <div class="col d-flex flex-column gap-2">
@@ -65,8 +75,8 @@
              <i class="fa-solid fa-house-chimney-window"></i>
 
             </div>
-            <h4 class="fw-semibold mb-0">Kunststofffenster</h4>
-            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+            <h4 class="fw-semibold mb-0">Fenster</h4>
+            <p class="text-muted">Montage und Demontage von Fenstern aller Art</p>
           </div>
         </div>
       </div>

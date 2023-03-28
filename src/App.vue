@@ -19,7 +19,7 @@
         <router-link to="/" class="nav-link">Home</router-link>
         </li>
       <li class="nav-item">
-        <router-link to="/uberuns" class="nav-link">O nama</router-link>
+        <router-link to="/uberuns" class="nav-link">Über uns</router-link>
         </li>
         <li class="nav-item">
         <router-link to="/kontakt" class="nav-link">Kontakt</router-link>
@@ -63,7 +63,7 @@
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              Ovdje neki moto ili opis
+              
             </p>
           </div>
           <!-- Grid column -->
@@ -85,7 +85,7 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Naše usluge</h6>
+            <h6 class="text-uppercase fw-bold">Unsere Dienstleistungen</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
