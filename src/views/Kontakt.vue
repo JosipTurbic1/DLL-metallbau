@@ -6,7 +6,7 @@
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Kontaktieren Sie uns</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Haben Sie eine frage? Bitte zögern Sie nicht und kontaktieren uns. Unser Team meldet sich bald möglichst bei euch.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Haben Sie eine Frage? Bitte zögern Sie nicht und kontaktieren uns. Unser Team meldet sich bald möglichst bei Ihnen.</p>
 
     <div class="row">
 
@@ -41,14 +41,21 @@
 
                 <!--Grid row-->
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="subject" name="subject"  class="form-control">
                             <label for="subject" class="">Betreff</label>
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="number" name="number"  class="form-control">
+                            <label for="subject" class="">Telefonnummer</label>
+                        </div>
+                    </div>
                 </div>
                 <!--Grid row-->
+                
 
                 <!--Grid row-->
                 <div class="row">

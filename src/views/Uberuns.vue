@@ -5,7 +5,7 @@
             <div class="col-lg-6">
                 <div class="section-title">
                     <h2>Wer sind wir?</h2>
-                    <p>Wir sind ein Unternehmen mit langjähriger Erfahrung in der Herstellung, dem Verkauf und der Montage aller Arten von Geländer, Glas, Türen und Fenstern</p>
+                    <p>Wir sind ein Unternehmen mit langjähriger Erfahrung im Verkauf und der Montage aller Arten von Geländer, Glas, Türen und Fenster</p>
                 </div>
             </div>
         </div>
