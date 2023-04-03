@@ -77,7 +77,7 @@
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p><i class="fas fa-home mr-3"></i> Blumenrainstrasse 8 CH-6032 Emmen</p>
-            <p><i class="fas fa-envelope mr-3"></i><a href="/kontakt" class="text-reset" style="text-decoration: none"> dalibor.jakovic@gmx.ch</a></p>
+            <p><i class="fas fa-envelope mr-3"></i><router-link to="/kontakt" style="text-decoration: none; color:white;"> dalibor.jakovic@gmx.ch</router-link></p>
             <p><i class="fas fa-phone mr-3"></i> +41 76 788 62 46</p>
           </div>
           <!-- Grid column -->
@@ -91,22 +91,19 @@
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              <i class="text-reset"><a href="/metallbau" class="text-reset" style="text-decoration: none">Metallbau</a></i>
+              <i class="text-reset"><router-link to="/metallbau" style="text-decoration: none; color:white;">Metallbau</router-link></i>
             </p>
             <p>
-              <i class="text-reset"><a href="/glasbau" class="text-reset" style="text-decoration: none">Glasbau</a></i>
+              <i class="text-reset"><router-link to="/glasbau" style="text-decoration: none; color:white;">Glasbau</router-link></i>
             </p>
             <p>
-              <i class="text-reset"><a href="/torbau" class="text-reset" style="text-decoration: none">Torbau</a></i>
+              <i class="text-reset"><router-link to="/montagen" style="text-decoration: none; color:white;">Montage</router-link></i>
             </p>
             <p>
-              <i class="text-reset"><a href="/montagen" class="text-reset" style="text-decoration: none">Montagen</a></i>
+              <i class="text-reset"><router-link to="/fenster" style="text-decoration: none; color:white;">Fenster</router-link></i>
             </p>
             <p>
-              <i class="text-reset"><a href="/fenster" class="text-reset" style="text-decoration: none">Fenster</a></i>
-            </p>
-            <p>
-              <i class="text-reset"><a href="/gelander" class="text-reset" style="text-decoration: none">Geländer</a></i>
+              <i class="text-reset"><router-link to="/gelander" style="text-decoration: none; color:white;">Geländer</router-link></i>
             </p>
           </div>
           <!-- Grid column -->

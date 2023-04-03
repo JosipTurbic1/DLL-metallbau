@@ -1,22 +1,20 @@
 <template>
- <div class="jumbotron">
-
+<div>
+ <div class="jumbotron" style="rounded-3">
 <div class="p-5 text-center bg-image rounded-3" style="
-    height: 450px;
-     background-image: url('https://drive.google.com/uc?export=view&id=1-dNoNHauHSI4zxctQjYHmX61YVee2VWn');
+    height: 400px;
+     background-image: url('https://drive.google.com/uc?export=view&id=17u6f7T8mzOrPcPe8QJF63K7olhidl5YS');
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: 50% 100%;
-     background-attachment: fixed;
+     background-position: center;
   ">
-  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-    <div class="d-flex justify-content-center align-items-center h-100">
-      <div class="text-white">
-        <h1 class="mb-4"><img src="@/assets/logo3.png" alt="" height="375" class="d-inline-block align-text-top " loading="lazy" /></h1>
-      </div>
-    </div>
-  </div>
+ <div class="d-flex justify-content-center align-items-center h-100">
+      <img src="@/assets/Logo123.png" alt="" class="rounded-3" loading="lazy" max-width="100%" height="200" width="250px" style="background-color:rgba(0,0,0,0.7);"/> 
+ </div> 
+  
 </div>
+
+ </div>
 
   <div class="container px-4 py-5">
     
@@ -83,6 +81,7 @@
     </div>
   </div>
   
+
 </div>
 </template>
 
@@ -135,5 +134,6 @@ export default {
   width: 3rem;
   height: 3rem;
 }
+
 
 </style>

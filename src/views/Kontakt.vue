@@ -21,7 +21,7 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
+                            <input type="text" id="name" name="name" class="form-control" v-model="name">
                             <label for="name" class="">Name</label>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="email" name="email"  class="form-control">
+                            <input type="text" id="email" name="email"  class="form-control" v-model="email">
                             <label for="email" class="">E-mail</label>
                         </div>
                     </div>
@@ -43,13 +43,13 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject"  class="form-control">
+                            <input type="text" id="subject" name="subject"  class="form-control" v-model="subject">
                             <label for="subject" class="">Betreff</label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="number" name="number"  class="form-control">
+                            <input type="text" id="number" name="number"  class="form-control" v-model="number">
                             <label for="subject" class="">Telefonnummer</label>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" v-model="message"></textarea>
                             <label for="message">Ihre Nachricht</label>
                         </div>
 
@@ -75,7 +75,7 @@
             </form>
 
             <div class="text-center text-md-left">
-               <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Senden</a>
+               <a class="btn btn-primary" @click="posalji()">Senden</a>
             </div>
             <div class="status"></div>
         </div>
@@ -129,3 +129,47 @@
   position:absolute;
 }
 </style>
+<script>
+export default {
+  name: "Posalji",
+  data(){
+    return{
+      email: '',
+      name: '',
+      number:'',
+      subject: '',
+      message:'',
+     
+    };
+    },
+     
+  
+  methods: {
+  
+      posalji(){
+      if (this.name.length<1) {
+        alert("Bitte geben Sie Ihren Namen ein");
+      }
+      else if(this.email.length<1){
+          alert("Bitte geben Sie ihre E-Mail-Adresse ein")
+        }
+        else if (!/^[^@]+@\w+(\.\w+)+\w$/.test(this.email)) {
+        alert( 'Invalid email')
+      }
+         else if(this.subject.length<1){
+          alert("Bitte Betreff eingeben")
+        }
+         else if(this.number.length<1){
+          alert("Bitte geben sie ihre Mobiltelefonnummer ein")
+        }
+         else if(this.message.length<1){
+          alert("Bitte gib deine Nachricht ein")
+        }
+      
+      else{
+         document.getElementById('contact-form').submit();
+      }
+      },
+  },
+};
+</script>

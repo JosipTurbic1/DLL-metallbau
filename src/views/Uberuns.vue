@@ -12,7 +12,8 @@
         <div class="row">
             <!-- feaure box -->
             <div class="col-sm-6 col-lg-4">
-                <a href="/metallbau" style="text-decoration: none">
+             <router-link to="/metallbau" style="text-decoration: none"> 
+               
                 <div class="feature-box-1" style="background-image: url('https://drive.google.com/uc?export=view&id=1FnhUX1zUJXtIxqRVy_N3Bo5FoutleghT'); background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 100%;
@@ -23,13 +24,14 @@
                     </div>
                 </div>
                 </div>
-                </a>
+              
+                </router-link>
             </div>
             <!-- / -->
             
             <!-- feaure box -->
             <div class="col-sm-6 col-lg-4">
-                <a href="/montagen" style="text-decoration: none">
+                <router-link to="/montagen" style="text-decoration: none">
                 <div class="feature-box-1" style="background-image: url('https://drive.google.com/uc?export=view&id=1XCjLTocycuDUhzs0wBqa_zKuSXZElwaS'); background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 100%;
@@ -40,12 +42,12 @@
                     </div>
                 </div>
                 </div>
-                </a>
+                </router-link>
             </div>
             <!-- / -->
             <!-- feaure box -->
             <div class="col-sm-6 col-lg-4">
-                <a href="/fenster" style="text-decoration: none">
+                <router-link to="/fenster" style="text-decoration: none">
                 <div class="feature-box-1" style="background-image: url('https://drive.google.com/uc?export=view&id=1EGAgA4dxPcavCbh42f35nAc6UY04S4nm'); background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 100%;
@@ -56,12 +58,12 @@
     </div>
                 </div>
                 </div>
-                </a>
+                </router-link>
             </div>
             <!-- / -->
             <!-- feaure box -->
             <div class="col-sm-6 col-lg-4">
-                <a href="/glasbau" style="text-decoration: none">
+                <router-link to="/glasbau" style="text-decoration: none">
                 <div class="feature-box-1" style="background-image: url('https://drive.google.com/uc?export=view&id=17u6f7T8mzOrPcPe8QJF63K7olhidl5YS'); background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 100%;
@@ -72,12 +74,12 @@
                      </div>
                 </div>
                 </div>
-                </a>
+                </router-link>
             </div>
             <!-- / -->
             <!-- feaure box -->
             <div class="col-sm-6 col-lg-4">
-                <a href="/gelander" style="text-decoration: none">
+                <router-link to="/gelander" style="text-decoration: none">
                 <div class="feature-box-1" style="background-image: url('https://drive.google.com/uc?export=view&id=1-dNoNHauHSI4zxctQjYHmX61YVee2VWn'); background-size: cover;
      background-repeat: no-repeat;
      background-position: 50% 100%;
@@ -89,7 +91,7 @@
                      </div>
                 </div>
                 </div>
-                </a>
+                </router-link>
             </div>
             <!-- / -->
         </div>
