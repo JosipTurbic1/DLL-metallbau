@@ -3,7 +3,7 @@
  <div class="jumbotron" style="rounded-3">
 <div class="p-5 text-center bg-image rounded-3" style="
     height: 400px;
-     background-image: url('https://drive.google.com/uc?export=view&id=17u6f7T8mzOrPcPe8QJF63K7olhidl5YS');
+     background-image: url('https://drive.google.com/thumbnail?sz=w5000&id=17u6f7T8mzOrPcPe8QJF63K7olhidl5YS');
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
